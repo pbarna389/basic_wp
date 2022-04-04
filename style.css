@@ -1,0 +1,49 @@
+* {
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+nav,
+article {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+nav button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 1em;
+}
+
+nav button:active {
+  background-color: aquamarine;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 10px 0 10px 0;
+}
+
+article div {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+
+  width: 60%;
+  margin: 10px 0 10px 0;
+  padding: 2em 2em 2em 2em;
+}
+
+article img {
+  width: 25%;
+  height: 25%;
+}
+
+.hidden {
+  display: none;
+}
